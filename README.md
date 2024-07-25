@@ -2,9 +2,9 @@
 Dassie is a new programming language that runs on the .NET Common Language Runtime (CLR). It aims to provide a concise and simple syntax and to combine the best parts of object-oriented and functional programming, allowing for faster and more efficient development of all kinds of applications.
 
 ## Getting started
-To get started, install a Dassie compiler like the reference implementation at [loschsoftware/dc](github.com/loschsoftware/dc). Unfortunately, since it depends on the .NET ``System.Reflection.Emit`` namespace that is only fully supported by .NET Framework, it currently only runs on Windows and only produces Windows executables. .NET 9, which will be released next year, is set to include the required functionality, which would allow the compiler to also target Linux and macOS.
+To get started, install a Dassie compiler like the reference implementation at [loschsoftware/dc](github.com/loschsoftware/dc).
 
-Assuming you have downloaded the Dassie compiler and registered it under the ``%Path%`` environment variable, the command ``dc`` should be available from the terminal. It is used to compile Dassie source files and manage Dassie projects using the configuration file ``dsconfig.xml`` that is at the root of every project.
+Assuming you have downloaded the Dassie compiler and registered it under the ``%Path%`` environment variable (or the equivalent in other systems), the command ``dc`` should be available from the terminal. It is used to compile Dassie source files and manage Dassie projects using the configuration file ``dsconfig.xml`` that is at the root of every project.
 
 To start programming in Dassie, create a file ending in ``.ds``. Here is the famous "Hello World" program written in Dassie:
 ````dassie
