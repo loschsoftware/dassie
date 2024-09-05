@@ -9,7 +9,6 @@ module FibonacciExample = {
 	Main (): int = {
 		@ i :> range 30 = {
 			println Fibonacci i
-			i += 1
 		}
 		
 		0
