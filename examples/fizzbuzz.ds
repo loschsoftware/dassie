@@ -10,7 +10,7 @@ module FizzBuzzExample = {
 	<EntryPoint>
 	Main (): int = {
 		@ i :> range 100 = {
-			println FizzBuzz i += 1
+			println FizzBuzz i
 		}
         
 		0
