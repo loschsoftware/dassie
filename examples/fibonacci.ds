@@ -7,9 +7,7 @@ module FibonacciExample = {
 
 	<EntryPoint>
 	Main (): int = {
-		
-		var i = 0 # Inline variable declaration in for loop is not supported yet
-		@ 30 = {
+		@ i :> range 30 = {
 			println Fibonacci i
 			i += 1
 		}
