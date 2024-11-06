@@ -8,6 +8,6 @@ module FactorialDemo = {
 	<EntryPoint>
 	Main (): null = {
 		number = rdint "Enter a number: "
-		println $"{number}! = {Factorial number}"
+		println "^{number}! = ^{Factorial number}"
 	}
 }
