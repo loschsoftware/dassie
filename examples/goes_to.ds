@@ -1,0 +1,17 @@
+# Recreation of the old C "goes to" meme in Dassie
+# https://stackoverflow.com/questions/1642028
+
+module App = {
+    # Definition of a custom operator. Operand 'a' is passed by reference.
+    --> (var a: int&, b: int) = (a -= 1) >= b
+    
+    <EntryPoint>
+    Main () = {
+        var x = 10
+        @ (&x) --> 0 = { # x goes to 0
+            println x
+        }
+        
+        0
+    }
+}
