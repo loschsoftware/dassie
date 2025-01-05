@@ -17,10 +17,5 @@ Console.WriteLine "Hello World!"
 ````
 Assuming the above code is located in a file called ``hello.ds``, it can be compiled using the command ``dc hello.ds``, yielding an executable called ``hello.exe``. Alternatively, the command ``dc build`` can be used to compile all Dassie source files in the current directory and all subdirectories.
 
-## Design principles
-- All code must be contained in a type. Like C#, Dassie allows for one file per project to have *top-level code* that is part of an auto-generated type and is declared as the entry point of the application implicitly.
-- Everything from variable assignment to conditionals and loops is an **expression**. A loop returns an array of the return values of each iteration.
-- Dassie uses **operators** for control flow. For example, the operator ``?`` is used for conditionals instead of the commonly used keyword ``if``. Loops use the operator ``@``. Both conditionals and loops are available in a negated form, the so called *unless* and *until* expressions, represented by the operators ``!?`` and ``!@``. Conditional and loop expressions are usable in **prefix** and **postfix** form.
-
-## Further information
-A detailed documentation of the language syntax is available in the wiki of this repository. Code examples can be found in the **examples** directory.
+## Documentation
+The [docs](./docs) directory of this repository contains a thorough language reference. Example programs can be found in the [examples](./examples) directory.
