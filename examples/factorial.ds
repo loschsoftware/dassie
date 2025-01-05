@@ -1,12 +1,12 @@
 module FactorialDemo = {
 
-	Factorial (n: int): int = {
+	Factorial (n: int) = {
 		? n <= 1 = 1
 		: = n * Factorial n - 1
 	}
 
 	<EntryPoint>
-	Main (): null = {
+	Main () = {
 		number = rdint "Enter a number: "
 		println "^{number}! = ^{Factorial number}"
 	}
