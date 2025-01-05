@@ -6,7 +6,7 @@ module FibonacciExample = {
 	}
 
 	<EntryPoint>
-	Main (): int = {
+	Main () = {
 		@ i :> range 30 = {
 			println Fibonacci i
 		}
