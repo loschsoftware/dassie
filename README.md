@@ -2,7 +2,7 @@
 **Dassie** is a statically typed high-level programming language designed around conciseness, expressiveness, simplicity and ease of use. Dassie is designed to be run on the .NET platform, and as such, can be JIT- or AOT-compiled to run on a wide range of systems.
 
 ## Getting started
-To get started, install a Dassie compiler like the reference implementation at [loschsoftware/dc](https://github.com/loschsoftware/dc). To try out the language, you can also use the online editor on [RyuGod](https://ryugod.com/pages/ide/dassie).
+To get started, install a Dassie compiler like the reference implementation at [loschsoftware/dc](https://github.com/loschsoftware/dc).
 
 Assuming you have downloaded the Dassie compiler and registered it under the ``%PATH%`` environment variable (or the equivalent in other systems), the command ``dc`` should be available from the terminal. It is used to compile Dassie source files and manage Dassie projects using the configuration file ``dsconfig.xml`` that is at the root of every project.
 
