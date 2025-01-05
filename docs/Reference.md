@@ -1,4 +1,7 @@
 # Dassie Language Reference
+> [!WARNING]  
+> This reference is a work-in-progress and not yet complete.
+
 **Dassie** is a statically typed high-level programming language designed around conciseness, expressiveness, simplicity and ease of use. Dassie is designed to be run on the .NET platform, and as such, can be JIT- or AOT-compiled to run on a wide range of systems. As a result, this reference deals with certain .NET-specific constructs and requires basic knowledge of .NET and general programming principles. It is not geared towards complete programming beginners.
 
 This reference is not a formal specification, it is merely designed to be a practical introduction to Dassie and to give an overview over Dassie syntax, semantics and language features. This document describes the full feature set of version 1.0 of the Dassie programming language.
