@@ -1,6 +1,6 @@
 module FizzBuzzExample = {
 
-	FizzBuzz (n: int): string = {
+	FizzBuzz (n: int) = {
 		? n % 15 == 0 = "FizzBuzz"
 		: n % 3 == 0 = "Fizz"
 		: n % 5 == 0 = "Buzz"
@@ -8,7 +8,7 @@ module FizzBuzzExample = {
 	}
 
 	<EntryPoint>
-	Main (): int = {
+	Main () = {
 		@ i :> range 100 = {
 			println FizzBuzz i
 		}
