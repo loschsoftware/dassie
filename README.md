@@ -1,5 +1,5 @@
 # The Dassie Programming Language
-**Dassie** is a statically typed high-level programming language designed around conciseness, expressiveness, simplicity and ease of use. Dassie is designed to be run on the .NET platform, and as such, can be JIT- or AOT-compiled to run on a wide range of systems.
+**Dassie** is a statically typed, high-level programming language designed around conciseness, expressiveness, simplicity and ease of use. Dassie is designed to be run on the .NET platform, and as such, can be JIT- or AOT-compiled to run on a wide range of systems.
 
 ## Getting started
 To get started, install a Dassie compiler like the reference implementation at [loschsoftware/dc](https://github.com/loschsoftware/dc).
