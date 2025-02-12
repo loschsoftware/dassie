@@ -1,12 +1,10 @@
-static FizzBuzz (n: int) = $ (n % 3, n % 5) = {
-    ? (0, 0) = "FizzBuzz"
-    : (0, _) = "Fizz"
-    : (_, 0) = "Buzz"
-    : = "^{n}"
-}
-
-@ i :> range 1, 100 = {
-    println FizzBuzz i
+ignore @ n :> range 1, 100 = {
+    println $ (n % 3, n % 5) = {
+        ? (0, 0) = "FizzBuzz"
+        : (0, _) = "Fizz"
+        : (_, 0) = "Buzz"
+        : = "^{n}"
+    }
 }
 
 0
