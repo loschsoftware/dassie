@@ -1,16 +1,9 @@
-module FibonacciExample = {
-
-	Fibonacci (n: int): int = {
-		? n <= 1 = 1
-		: = (Fibonacci n - 1) + (Fibonacci n - 2)
-	}
-
-	<EntryPoint>
-	Main () = {
-		@ i :> range 30 = {
-			println Fibonacci i
-		}
-		
-		0
-	}
+static fib (n: int): int =
+    ? n <= 1 = 1
+    : = (fib n - 1) + (fib n - 2)
+    
+@ n :> range 1, 30 = {
+    println fib n
 }
+
+0
