@@ -1,4 +1,4 @@
-ignore @ n :> range 1, 100 = {
+ignore @ n :> @[1..100] = {
     println $ (n % 3, n % 5) = {
         ? (0, 0) = "FizzBuzz"
         : (0, _) = "Fizz"
